@@ -29,6 +29,7 @@ AGE = config("AGE", default=25, cast=int)
 ALLOWED_HOSTS = config("ALLOWED_HOSTS").split(",")
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
