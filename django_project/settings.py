@@ -140,9 +140,9 @@ STATIC_URL = '/static/'
 # Directory where collectstatic will place static files
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# Additional locations for static files (if any)
+
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    BASE_DIR / 'static',  # This should point to your static folder
 ]
 
 
